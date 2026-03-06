@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Anúncio 1",
+    "html": "<a href="https://beta.publishers.adsterra.com/referral/UCwKH8Y1tc" rel="nofollow"><img alt="banner" src="https://landings-cdn.adsterratech.com/referralBanners/png/468%20x%2060%20px.png" /></a>
+  },
+  {
+    "nome": "Anúncio 2",
+    "html": "<script>
+  atOptions = {
+    'key' : '168627a6e7552574c23e1237c618cc4f',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/168627a6e7552574c23e1237c618cc4f/invoke.js"></script>"
+  },
+  {
+    "nome": "Anúncio 3",
+    "html": "<script>
+  atOptions = {
+    'key' : '168627a6e7552574c23e1237c618cc4f',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/168627a6e7552574c23e1237c618cc4f/invoke.js"></script>"
+  }
+]
