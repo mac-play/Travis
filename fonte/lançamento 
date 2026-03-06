@@ -1,1 +1,14 @@
-...
+[
+  {
+    "nome": "Filme Ação 1",
+    "capa": "https://link-da-capa.jpg",
+    "sinopse": "Explosões e aventura em alta velocidade.",
+    "link": "https://www.youtube.com/embed/VIDEO_ID1"
+  },
+  {
+    "nome": "Filme Ação 2",
+    "capa": "https://link-da-capa2.jpg",
+    "sinopse": "Corridas e adrenalina sem parar.",
+    "link": "https://www.youtube.com/embed/VIDEO_ID2"
+  }
+]
