@@ -1,1 +1,17 @@
-...
+[
+  {
+    "nome": "Anúncio 1",
+    "link": "https://link-do-anuncio1.com",
+    "imagem": "https://link-da-imagem1.jpg"
+  },
+  {
+    "nome": "Anúncio 2",
+    "link": "https://link-do-anuncio2.com",
+    "imagem": "https://link-da-imagem2.jpg"
+  },
+  {
+    "nome": "Anúncio 3",
+    "link": "https://link-do-anuncio3.com",
+    "imagem": "https://link-da-imagem3.jpg"
+  }
+]...
