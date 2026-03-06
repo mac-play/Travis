@@ -1,8 +1,15 @@
 [
   {
-    "nome": "Anúncio 1",
-    "link": "https://link-do-anuncio1.com",
-    "imagem": "https://link-da-imagem1.jpg"
+    <script>
+  atOptions = {
+    'key' : '168627a6e7552574c23e1237c618cc4f',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/168627a6e7552574c23e1237c618cc4f/invoke.js"></script>
   },
   {
     "nome": "Anúncio 2",
