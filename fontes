@@ -1,32 +1,85 @@
 [
   {
-    "nome": "Anúncio 1",
-    "html": "<a href="https://beta.publishers.adsterra.com/referral/UCwKH8Y1tc" rel="nofollow"><img alt="banner" src="https://landings-cdn.adsterratech.com/referralBanners/png/468%20x%2060%20px.png" /></a>
-  },
-  {
-    "nome": "Anúncio 2",
-    "html": "<script>
-  atOptions = {
-    'key' : '168627a6e7552574c23e1237c618cc4f',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
+    "nome": "blog simples",
+    "html": "<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Blog Pessoal</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; background: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 2rem; text-align: center; }
+        .container { max-width: 800px; margin: 2rem auto; background: #fff; padding: 2rem; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .post-title { color: #222; border-bottom: 2px solid #333; padding-bottom: 10px; }
+        .admin-badge { background: #e74c3c; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; }
+        [contenteditable="true"]:hover { outline: 1px dashed #ccc; cursor: text; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 contenteditable="true">Título do Meu Blog</h1>
+    <p>Postado por: <strong>Biu</strong> <span class="admin-badge">Autor</span></p>
+</header>
+
+<div class="container">
+    <article>
+        <h2 class="post-title" contenteditable="true">Título da Postagem (Clique para editar)</h2>
+        <div class="content" contenteditable="true">
+            <p>Este é o corpo do texto. Como este é um modelo de blog, apenas o proprietário do arquivo deve ter acesso a estas ferramentas de edição.</p>
+            <p>Clique em qualquer lugar aqui para começar a escrever seu novo artigo.</p>
+        </div>
+    </article>
+</div>
+
+</body>
+</html>
+" }, {
+    "nome": "comunidade de post",
+    "html": " <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Comunitário</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #e9ecef; }
+        nav { background: #0056b3; color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+        .card { background: white; border-radius: 8px; padding: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn-post { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        .user-info { font-size: 0.85rem; color: #666; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h1>Portal Aberto</h1>
+    <button class="btn-post" onclick="addPost()">Nova Postagem +</button>
+</nav>
+
+<div class="grid" id="portalGrid">
+    <div class="card">
+        <div class="user-info">Postado por: Usuário_Anonimo</div>
+        <h3 contenteditable="true">Notícia de Última Hora</h3>
+        <p contenteditable="true">Qualquer pessoa pode clicar aqui e adicionar uma informação ou relato ao portal.</p>
+    </div>
+</div>
+
+<script>
+    function addPost() {
+        const grid = document.getElementById('portalGrid');
+        const newCard = document.createElement('div');
+        newCard.className = 'card';
+        newCard.innerHTML = `
+            <div class="user-info">Postado por: Novo Membro</div>
+            <h3 contenteditable="true">Título da sua contribuição</h3>
+            <p contenteditable="true">Escreva sua notícia ou comentário aqui...</p>
+        `;
+        grid.prepend(newCard);
+    }
 </script>
-<script src="https://www.highperformanceformat.com/168627a6e7552574c23e1237c618cc4f/invoke.js"></script>"
-  },
-  {
-    "nome": "Anúncio 3",
-    "html": "<script>
-  atOptions = {
-    'key' : '168627a6e7552574c23e1237c618cc4f',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highperformanceformat.com/168627a6e7552574c23e1237c618cc4f/invoke.js"></script>"
-  }
-]
+
+</body>
+</html>
+
+" }, 
