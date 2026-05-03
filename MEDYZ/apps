@@ -1,0 +1,98 @@
+/**
+ * SISTEMA DE AGENDAMENTO - BACKEND
+ * Desenvolvido para: Planilha 1HU433pNM9JnJn9mgovHLTlF0U-0htmblPQ_c2j7ZNOA
+ */
+
+const SENHA_MEDICO = "1234"; // Altere para a senha desejada
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('index')
+      .evaluate()
+      .setTitle('Sistema de Agendamento - Clínico')
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1')
+      .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
+}
+
+// Função auxiliar para incluir arquivos HTML (CSS/JS)
+function include(filename) {
+  return HtmlService.createHtmlOutputFromFile(filename).getContent();
+}
+
+/**
+ * BUSCA VAGAS PARA O PACIENTE (SEGURANÇA: Não envia nomes)
+ */
+function buscarVagas() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+  const dados = sheet.getDataRange().getValues();
+  
+  // Retorna apenas a data/hora das linhas onde a coluna de paciente (B) está vazia
+  // r[0] = Horário, r[1] = Paciente
+  return dados.slice(1) 
+    .filter(r => r[0] && !r[1]) 
+    .map(r => ({
+      exibicao: Utilities.formatDate(new Date(r[0]), "GMT-3", "dd/MM - HH:mm"),
+      valorOriginal: r[0].toISOString()
+    }));
+}
+
+/**
+ * VALIDA LOGIN E BUSCA TODOS OS DADOS (Para o Médico)
+ */
+function verificarSenha(senha) {
+  if (senha === SENHA_MEDICO) {
+    return buscarDadosCompletos();
+  }
+  throw new Error("Senha incorreta!");
+}
+
+function buscarDadosCompletos() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+  const dados = sheet.getDataRange().getValues();
+  
+  return dados.slice(1).map(r => ({
+    horario: Utilities.formatDate(new Date(r[0]), "GMT-3", "dd/MM - HH:mm"),
+    paciente: r[1] || "Disponível",
+    raw: r[0].toISOString()
+  }));
+}
+
+/**
+ * GRAVA AGENDAMENTO DO PACIENTE
+ */
+function confirmarAgendamento(nome, isoData) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+  const dados = sheet.getDataRange().getValues();
+  const dataAlvo = new Date(isoData).getTime();
+
+  for (let i = 1; i < dados.length; i++) {
+    if (new Date(dados[i][0]).getTime() === dataAlvo) {
+      if (!dados[i][1]) { // Verifica se ainda está vago
+        sheet.getRange(i + 1, 2).setValue(nome);
+        return "Sucesso!";
+      }
+    }
+  }
+  throw new Error("Horário já preenchido ou não encontrado.");
+}
+
+/**
+ * FUNÇÕES ADMINISTRATIVAS (MÉDICO)
+ */
+function adicionarSlot(dataString) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+  sheet.appendRow([new Date(dataString), ""]);
+  sheet.sort(1); // Mantém em ordem cronológica
+}
+
+function removerSlot(isoData) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+  const dados = sheet.getDataRange().getValues();
+  const dataAlvo = new Date(isoData).getTime();
+
+  for (let i = dados.length - 1; i >= 1; i--) {
+    if (new Date(dados[i][0]).getTime() === dataAlvo) {
+      sheet.deleteRow(i + 1);
+      break;
+    }
+  }
+}
