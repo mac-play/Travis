@@ -1,0 +1,85 @@
+{
+  "obras": [
+    {
+      "id": "escola",
+      "nome": "escola pequena",
+      "custo": 760000,
+      "tempo_meses": 4,
+      "descricao": "Construção de complexos educacionais de alto padrão para expansão da base educacional.",
+      "resultado": {
+        "aprovacao": 1,
+        "pib": 0.02,
+        "desemprego": -0.03
+      }
+    },   {
+      "id": "escola",
+      "nome": "escola",
+      "custo": 9000000,
+      "tempo_meses": 6,
+      "descricao": "Construção de complexos educacionais de alto padrão para expansão da base educacional.",
+      "resultado": {
+        "aprovacao": 2,
+        "pib": 0.05,
+        "desemprego": -0.08
+      }
+    },   {
+      "id": "escola",
+      "nome": "grande formatorio",
+      "custo": 7600000,
+      "tempo_meses": 19,
+      "descricao": "Construção de complexos educacionais de alto padrão para expansão da base educacional.",
+      "resultado": {
+        "aprovacao": -3,
+        "pib": 0.3,
+        "desemprego": -0.83
+      }
+    },   {
+      "id": "escola",
+      "nome": "universidade",
+      "custo": 760000000,
+      "tempo_meses": 12,
+      "descricao": "Construção de complexos educacionais de alto padrão para expansão da base educacional.",
+      "resultado": {
+        "aprovacao": 6,
+        "pib": 0.12,
+        "desemprego": -0.95
+      }
+    },
+    {
+      "id": "Esportes",
+      "nome": "pista de corrida",
+      "custo": 2500000000,
+      "tempo_meses": 4,
+      "descricao": "eventos internacionais podem ocorrer em seu pais. o povo vai amar",
+      "resultado": {
+        "aprovacao": 7,
+        "pib": 0.6,
+        "desemprego": -0.3
+      }
+    },
+    {
+      "id": "usinas",
+      "nome": "Usina Hidrelétrica Nacional",
+      "custo": 40000000,
+      "tempo_meses": 8,
+      "descricao": "Geração massiva de energia limpa para atrair indústrias e movimentar o setor energético.",
+      "resultado": {
+        "aprovacao": 0,
+        "pib": 0.70,
+        "desemprego": -0.3
+      }
+    },
+    {
+      "id": "rodovia",
+      "nome": "Rodovia Interestadual de Escoamento",
+      "custo": 20000000,
+      "tempo_meses": 4,
+      "descricao": "Asfalto de qualidade ligando polos de produção agrícola e portos nacionais.",
+      "resultado": {
+        "aprovacao": 1,
+        "pib": 0.22,
+        "desemprego": -0.1
+      }
+    }
+  ]
+}
