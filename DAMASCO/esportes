@@ -3,7 +3,7 @@
     "nome": "PRO EVOLUTION SOCCER 2",
     "regiao": "PSX",
     "capa": "https://psxdatacenter.com/images/covers/P/P/SLES-03957.jpg",
-    "embed": "<iframe src='https://www.retrogames.cc/embed/42622-pro-evolution-soccer-2.html' width='600' height='450' frameborder='0' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>"
+    "embed": '<iframe src='https://www.retrogames.cc/embed/42622-pro-evolution-soccer-2.html' width='600' height='450' frameborder='0' allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' scrolling='no'></iframe>'
   }, 
   {
     "nome": "Street Fighter Alpha 3",
