@@ -1,0 +1,212 @@
+{
+  "ligas": {
+    "America_do_Sul": {
+      "Brasil": [
+        "Rato Preto",
+        "Piedade",
+        "Copacabana",
+        "Samba e Fé",
+        "Tropa",
+        "Ferroviária",
+        "Mimense",
+        "Recife",
+        "Tricolor Paulista",
+        "Aflitos"
+      ],
+      "Argentina": [
+        "Junior",
+        "Berrzaro",
+        "Atlético Cordoba",
+        "Buenos Aires",
+        "Makkuito",
+        "Club Universitario",
+        "Tordoza",
+        "Olímpico",
+        "Club Real",
+        "Atlético Club"
+      ],
+      "Paraguai": [
+        "Atyrá Atlântico",
+        "Recoleta FC",
+        "Trinidad Central",
+        "Caacupé Esporte",
+        "Zeballos Cue",
+        "Lambaré United",
+        "San Lorenzo do Sul",
+        "Fernando de la Mora",
+        "Luque Bairro",
+        "Encarnación City"
+      ],
+      "Colombia": [
+        "Usaquén AC",
+        "Envigado Sul",
+        "Soacha F.C.",
+        "Chapinero United",
+        "Itagüí Metropolitano",
+        "Poblado Esportivo",
+        "Bello Horizonte",
+        "Suba FC",
+        "Barrios Unidos",
+        "Kennedy City"
+      ],
+      "Chile": [
+        "Providencia FC",
+        "Ñuñoa Esporte",
+        "Maipú City",
+        "Las Condes United",
+        "Puente Alto AC",
+        "Vitacura F.C.",
+        "San Bernardo Ferro",
+        "Quilicura Athletic",
+        "Pudahuel Central",
+        "La Florida FC"
+      ],
+      "Uruguai": [
+        "Pocitos Athletic",
+        "Carrasco FC",
+        "Sayago United",
+        "Malvín Esportivo",
+        "Prado Central",
+        "Buceo F.C.",
+        "Punta Carretas",
+        "Colón do Sul",
+        "Capurro AC",
+        "Tres Cruces FC"
+      ],
+      "Venezuela": [
+        "Chacao United",
+        "Petare Esporte",
+        "El Paraíso FC",
+        "Baruta AC",
+        "Catia F.C.",
+        "La Candelaria",
+        "El Recreo City",
+        "San Bernardino",
+        "Antímano FC",
+        "Caricuao Athletic"
+      ],
+      "Suriname": [
+        "Wanica United",
+        "Commewijne FC",
+        "Nickerie Esporte",
+        "Para City",
+        "Marowijne AC",
+        "Saramacca F.C.",
+        "Blauwgrond",
+        "Flora Central",
+        "Latour Athletic",
+        "Pontbuiten FC"
+      ]
+    },
+    "Europa": {
+      "Alemanha": [
+        "Kreuzberg FC",
+        "Schwabing United",
+        "Altona Esporte",
+        "Bogenhausen AC",
+        "Ehrenfeld F.C.",
+        "Neukölln City",
+        "Pankow Athletic",
+        "Solln FC",
+        "Barmbek Central",
+        "Charlottenburg"
+      ],
+      "Franca": [
+        "Belleville FC",
+        "Montmartre United",
+        "Marais Esporte",
+        "Bastille AC",
+        "Pigalle F.C.",
+        "Vaugirard City",
+        "Monnaie Athletic",
+        "Grenelle FC",
+        "Bercy Central",
+        "Ménilmontant"
+      ],
+      "Italia": [
+        "Trastevere FC",
+        "Navigli United",
+        "Vomero Esporte",
+        "San Salvario AC",
+        "Brera F.C.",
+        "Testaccio City",
+        "Quadrilatero Athletic",
+        "San Lorenzo Roma",
+        "Bocca di Leone",
+        "Quarto Oggiaro"
+      ],
+      "Espanha": [
+        "Gràcia FC",
+        "Chueca United",
+        "Triana Esporte",
+        "Malasaña AC",
+        "Eixample F.C.",
+        "Albaicín City",
+        "Lavapiés Athletic",
+        "Pedralbes FC",
+        "Sarrià Central",
+        "Barrio Salamanca"
+      ],
+      "Inglaterra": [
+        "Camden Town FC",
+        "Shoreditch United",
+        "Brixton Esporte",
+        "Notting Hill AC",
+        "Islington F.C.",
+        "Hackney City",
+        "Chelsea Village",
+        "Kensington Athletic",
+        "Soho Central",
+        "Greenwich FC"
+      ],
+      "Portugal": [
+        "Alfama FC",
+        "Baixa Pombalina",
+        "Chiado United",
+        "Ribeira Esporte",
+        "Foz do Douro AC",
+        "Bica F.C.",
+        "Campolide City",
+        "Alvalade Athletic",
+        "Marvila Central",
+        "Benfica Bairro"
+      ],
+      "Suica": [
+        "Altstetten FC",
+        "Eaux-Vives United",
+        "Gundeli Esporte",
+        "Oerlikon AC",
+        "Plainpalais F.C.",
+        "Paquis City",
+        "Wiedikon Athletic",
+        "Seefeld FC",
+        "Fluntern Central",
+        "Riehen Sporting"
+      ],
+      "Turquia": [
+        "Kadiköy FC",
+        "Beşiktaş Bairro",
+        "Üsküdar United",
+        "Moda Esporte",
+        "Galata AC",
+        "Cihangir F.C.",
+        "Etiler City",
+        "Bebek Athletic",
+        "Nisantasi FC",
+        "Karaköy Central"
+      ],
+      "Belgica": [
+        "Ixelles FC",
+        "Schaerbeek United",
+        "Etterbeek Esporte",
+        "Saint-Gilles AC",
+        "Uccle F.C.",
+        "Anderlecht Bairro",
+        "Koekelberg City",
+        "Molenbeek Athletic",
+        "Forest Central",
+        "Woluwe FC"
+      ]
+    }
+  }
+}
