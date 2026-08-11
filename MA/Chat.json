@@ -1,0 +1,14 @@
+{
+  "msg_id": "msg_uuid_998877",
+  "sender_id": "MAT12345",
+  "recipient_id": "MAT67890",
+  "timestamp": 1786676000,
+  "payload": {
+    "type": "text", 
+    "content": "Mensagem criptografada de ponta a ponta ou texto simples aqui"
+  },
+  "sender_profile_pic": "data:image/jpeg;base64,/9j/4AAQSkZJRg...",
+  "hops_traveled": 1,
+  "ttl": 3,
+  "status": "pending_relay"
+}
