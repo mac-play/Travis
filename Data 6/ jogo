@@ -1,33 +1,210 @@
+# Data 6 - Repositório de Scouts
 
----
+Repositório oficial para registro de dados e desempenho dos atletas da base do Náutico.
 
-## 🛡️ Goleiros
-- Nome: Nikollas | Ano: 2007 | Valor: 250k
-- Nome: Mão | Ano: 2006 | Valor: 200k
-___
-## 🧱 Defensores
-- Nome: Pietro | Ano: 2006 | Valor: 250k
-- Nome: Gledson | Ano: 2006 | Valor: 250k
-- Nome: Dhonatan | Ano: 2006 | Valor: 250k
-- Nome: Vini | Ano: 2006 | Valor: 250k
-- Nome: Guilherme Faria | Ano: 2007 | Valor: 200k
-- Nome: João Marcelo | Ano: 2008 | Valor: 200k
-- Nome: Vinícios Gabriel | Ano: 2006 | Valor: 200k
-- Nome: Vinícius Oliveira | Ano: 2007 | Valor: 200k
-___
-## ⚙️ Meio-Campistas
-- Nome: Matheus Uchôa | Ano: 2006 | Valor: 250k
-- Nome: Marcelinho | Ano: 2006 | Valor: 250k
-- Nome: Pedro Ricardo | Ano: 2008 | Valor: 250k
-- Nome: Thiago da Paz | Ano: 2008 | Valor: 200k
-- Nome: Eric | Ano: 2007 | Valor: 200k
-- Nome: Marley | Ano: 2007 | Valor: 200k
-- Nome: Wendell | Ano: 2007 | Valor: 200k
-___
-## ⚡ Atacantes
-- Nome: Rosa | Ano: 2008 | Valor: 250k
-- Nome: Lukayann | Ano: 2007 | Valor: 250k
-- Nome: Daniel | Ano: 2007 | Valor: 250k
-- Nome: Halanzinho | Ano: 2006 | Valor: 200k
-- Nome: Adrian | Ano: 2008 | Valor: 200k
-- Nome: Wellington Bigode | Ano: 2008 | Valor: 200k
+### Nikollas
+- **Posição:** Goleiro
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Mão
+- **Posição:** Goleiro
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Pietro
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Gledson
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Dhonatan
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Vini
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Guilherme Faria
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### João Marcelo
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Vinícios Gabriel
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Vinícius Oliveira
+- **Posição:** Defensor
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Matheus Uchôa
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Marcelinho
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Pedro Ricardo
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Thiago da Paz
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Eric
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Marley
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Wendell
+- **Posição:** Meio-Campista
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Rosa
+- **Posição:** Atacante
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Lukayann
+- **Posição:** Atacante
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Daniel
+- **Posição:** Atacante
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Halanzinho
+- **Posição:** Atacante
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Adrian
+- **Posição:** Atacante
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
+
+### Wellington Bigode
+- **Posição:** Atacante
+- **Ações com a bola:** 
+- **Passes certos:** /
+- **Finalizações:** 
+- **Dribles:** /
+- **Recuperações:** 
+- **Participações em gols:** 
