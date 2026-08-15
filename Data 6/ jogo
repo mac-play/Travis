@@ -1,17 +1,10 @@
-# Data 6 - Elenco Base Náutico
-
-Repositório de monitoramento de atletas do Sub-20 do Náutico.
-
-## Classificação de Mercado
-- **Titulares:** 250k
-- **Reservas:** 200k
 
 ---
 
 ## 🛡️ Goleiros
 - Nome: Nikollas | Ano: 2007 | Valor: 250k
 - Nome: Mão | Ano: 2006 | Valor: 200k
-
+___
 ## 🧱 Defensores
 - Nome: Pietro | Ano: 2006 | Valor: 250k
 - Nome: Gledson | Ano: 2006 | Valor: 250k
@@ -21,7 +14,7 @@ Repositório de monitoramento de atletas do Sub-20 do Náutico.
 - Nome: João Marcelo | Ano: 2008 | Valor: 200k
 - Nome: Vinícios Gabriel | Ano: 2006 | Valor: 200k
 - Nome: Vinícius Oliveira | Ano: 2007 | Valor: 200k
-
+___
 ## ⚙️ Meio-Campistas
 - Nome: Matheus Uchôa | Ano: 2006 | Valor: 250k
 - Nome: Marcelinho | Ano: 2006 | Valor: 250k
@@ -30,7 +23,7 @@ Repositório de monitoramento de atletas do Sub-20 do Náutico.
 - Nome: Eric | Ano: 2007 | Valor: 200k
 - Nome: Marley | Ano: 2007 | Valor: 200k
 - Nome: Wendell | Ano: 2007 | Valor: 200k
-
+___
 ## ⚡ Atacantes
 - Nome: Rosa | Ano: 2008 | Valor: 250k
 - Nome: Lukayann | Ano: 2007 | Valor: 250k
